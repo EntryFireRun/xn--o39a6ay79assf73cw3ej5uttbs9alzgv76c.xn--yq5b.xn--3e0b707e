@@ -1,0 +1,43 @@
+/*
+==똥 사는 곳==
+제목 수정 불가
+장면 수정 불가
+저장 불가
+오브젝트 수정 불가
+
+==밑에는 코드 싸는 곳==
+*/
+
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-dynamic-subset.min.css");
+#entryCurtain {
+  width: 667px;
+  height: 70px;
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-size: 0px;
+  background-color: #ff4320cc;
+  color: white;
+  opacity: 1;
+  top: unset;
+  bottom: 35px;
+  left: unset;
+  right: 100px;
+  text-align: left;
+  transition: all 0.5s;
+  backdrop-filter: blur(5px);
+}
+#entryCurtain:hover {
+  background-color: #ff4320;
+}
+#entryCurtain::after {
+  content: "작품이 실행중입니다, 코드를 수정하게 될 경우 문제가 발생할 수 있습니다, \a 여기를 눌러 작품을 정지할 수 있습니다";
+  font-size: 20px;
+  font-weight: bold;
+}
+#water_pyer::after {
+  content: "작품이 실행 중일 때 코드 수정";
+  font-family: Pretendard SemiBold;
+}
+#water_pyer {
+  cursor: pointer; /* 꼭 필요한 것만 넣으려 했지만 불편해서 이것도 넣음 */
+}

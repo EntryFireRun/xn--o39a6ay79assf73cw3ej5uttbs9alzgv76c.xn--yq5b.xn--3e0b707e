@@ -1,0 +1,152 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+* {
+  font-family: "Pretendard Variable", Pretendard, -apple-system,
+    BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI",
+    "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+}
+.entrySceneWorkspace,
+.entryBlockCountView {
+  background-image: linear-gradient(black, white) !important;
+}
+#common_srch,
+.entry-modal-title {
+  background-color: #000 !important;
+}
+.entrySceneAddButtonWorkspace {
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSLroIjsnbTslrRfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IgoJIHk9IjBweCIgdmlld0JveD0iMCAwIDMwIDMwIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAzMCAzMDsiIHhtbDpzcGFjZT0icHJlc2VydmUiPgo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgoJLnN0MHtmaWxsOiM4MzgzODM7fQo8L3N0eWxlPgo8Zz4KCTxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0xNSwwQzYuNzIsMCwwLDYuNzIsMCwxNWMwLDguMjgsNi43MiwxNSwxNSwxNXMxNS02LjcyLDE1LTE1QzMwLDYuNzIsMjMuMjgsMCwxNSwweiBNMjIuNSwxNi41aC02djYKCQljMCwwLjgzLTAuNjcsMS41LTEuNSwxLjVzLTEuNS0wLjY3LTEuNS0xLjV2LTZoLTZDNi42NywxNi41LDYsMTUuODMsNiwxNXMwLjY3LTEuNSwxLjUtMS41aDZ2LTZDMTMuNSw2LjY3LDE0LjE3LDYsMTUsNgoJCXMxLjUsMC42NywxLjUsMS41djZoNmMwLjgzLDAsMS41LDAuNjcsMS41LDEuNVMyMy4zMywxNi41LDIyLjUsMTYuNXoiLz4KPC9nPgo8L3N2Zz4K") !important;
+  filter: brightness(0);
+  width: 20px !important;
+  height: 20px !important;
+  margin: 9px !important;
+  background-size: 20px !important;
+}
+.entrySceneInputCover {
+  border-bottom-color: #ffffff00 !important;
+}
+.selectedScene .entrySceneFieldWorkspace {
+  color: #000 !important;
+}
+#common_srch > div > div > a,
+#common_srch > div > div {
+  border-color: #fff;
+  background-color: #000;
+}
+.blockCountView {
+  background-color: #fff !important;
+  color: #000 !important;
+}
+.entryPlaygroundButtonTabWorkspace
+  .entryPlaygroundCommentButtonWorkspace.showComment.enabled {
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjgiIGhlaWdodD0iMjgiIHZpZXdCb3g9IjAgMCAyOCAyOCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTE0LjI1NiAxOS44NUMxNC4wODkgMjAuMDUgMTMuOTExIDIwLjA1IDEzLjc0NCAxOS44NUwxMi4zMzQgMTguMzM2SDEwLjY2N0MxMC4zMTY3IDE4LjMzNiA5Ljk2OTc5IDE4LjI2NyA5LjY0NjE1IDE4LjEzMjlDOS4zMjI1MSAxNy45OTg4IDkuMDI4NDYgMTcuODAyMyA4Ljc4MDc5IDE3LjU1NDVDOC41MzMxMyAxNy4zMDY3IDguMzM2NyAxNy4wMTI2IDguMjAyNzMgMTYuNjg4OUM4LjA2ODc2IDE2LjM2NTIgNy45OTk4NyAxNi4wMTgzIDggMTUuNjY4VjEwLjY2OEM3Ljk5OTg3IDEwLjMxNzcgOC4wNjg3NiA5Ljk3MDc3IDguMjAyNzMgOS42NDcwOEM4LjMzNjcgOS4zMjMzOSA4LjUzMzEzIDkuMDI5MjYgOC43ODA3OSA4Ljc4MTVDOS4wMjg0NiA4LjUzMzc0IDkuMzIyNTEgOC4zMzcyIDkuNjQ2MTUgOC4yMDMxMUM5Ljk2OTc5IDguMDY5MDIgMTAuMzE2NyA4IDEwLjY2NyA4SDE3LjMzM0MxNy42ODMyIDggMTguMDMgOC4wNjg5OCAxOC4zNTM2IDguMjAzMDFDMTguNjc3MiA4LjMzNzA0IDE4Ljk3MTIgOC41MzM0OSAxOS4yMTg5IDguNzgxMTVDMTkuNDY2NSA5LjAyODggMTkuNjYzIDkuMzIyODEgMTkuNzk3IDkuNjQ2MzhDMTkuOTMxIDkuOTY5OTYgMjAgMTAuMzE2OCAyMCAxMC42NjdWMTUuNjY4QzIwLjAwMDEgMTYuMDE4MyAxOS45MzEyIDE2LjM2NTIgMTkuNzk3MyAxNi42ODg5QzE5LjY2MzMgMTcuMDEyNiAxOS40NjY5IDE3LjMwNjcgMTkuMjE5MiAxNy41NTQ1QzE4Ljk3MTUgMTcuODAyMyAxOC42Nzc1IDE3Ljk5ODggMTguMzUzOCAxOC4xMzI5QzE4LjAzMDIgMTguMjY3IDE3LjY4MzMgMTguMzM2IDE3LjMzMyAxOC4zMzZIMTUuNjY3TDE0LjI1NyAxOS44NDlMMTQuMjU2IDE5Ljg1Wk0xMC41IDExQzEwLjM2NzQgMTEgMTAuMjQwMiAxMS4wNTI3IDEwLjE0NjQgMTEuMTQ2NEMxMC4wNTI3IDExLjI0MDIgMTAgMTEuMzY3NCAxMCAxMS41QzEwIDExLjYzMjYgMTAuMDUyNyAxMS43NTk4IDEwLjE0NjQgMTEuODUzNkMxMC4yNDAyIDExLjk0NzMgMTAuMzY3NCAxMiAxMC41IDEySDE3LjVDMTcuNjMyNiAxMiAxNy43NTk4IDExLjk0NzMgMTcuODUzNiAxMS44NTM2QzE3Ljk0NzMgMTEuNzU5OCAxOCAxMS42MzI2IDE4IDExLjVDMTggMTEuMzY3NCAxNy45NDczIDExLjI0MDIgMTcuODUzNiAxMS4xNDY0QzE3Ljc1OTggMTEuMDUyNyAxNy42MzI2IDExIDE3LjUgMTFIMTAuNVpNMTAuNDY5IDEzQzEwLjIwOSAxMyAxMCAxMy4yMjQgMTAgMTMuNUMxMCAxMy43NzYgMTAuMjEgMTQgMTAuNDY5IDE0SDE0LjUzMUMxNC43OTEgMTQgMTUgMTMuNzc2IDE1IDEzLjVDMTUgMTMuMjI0IDE0Ljc5IDEzIDE0LjUzMSAxM0gxMC40N0gxMC40NjlaTTEwLjU2MyAxNUMxMC4yNTIgMTUgMTAgMTUuMjI0IDEwIDE1LjVDMTAgMTUuNzc2IDEwLjI1MiAxNiAxMC41NjMgMTZIMTIuNDM3QzEyLjc0OCAxNiAxMyAxNS43NzYgMTMgMTUuNUMxMyAxNS4yMjQgMTIuNzQ4IDE1IDEyLjQzNyAxNUgxMC41NjNaIiBmaWxsPSJibGFjayIvPgo8L3N2Zz4K") !important;
+}
+.entryPlaygroundButtonTabWorkspace
+  .entryPlaygroundCommentButtonWorkspace.addComment.enabled {
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjgiIGhlaWdodD0iMjgiIHZpZXdCb3g9IjAgMCAyOCAyOCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTE3Ljg4OSA4QzE5LjYwNyA4IDIxIDkuMjk0IDIxIDEwLjg5VjE2LjMwN0MyMSAxNy45MDMgMTkuNjA3IDE5LjE5NyAxNy44ODkgMTkuMTk3SDE1Ljk0NEwxNC4yOTkgMjAuODM3QzE0LjEwNCAyMS4wNTQgMTMuODk2IDIxLjA1NCAxMy43MDEgMjAuODM3TDEyLjA1NiAxOS4xOTdIMTAuMTFDOC4zOTMgMTkuMTk3IDcgMTcuOTAzIDcgMTYuMzA3VjEwLjg5QzcgOS4yOTQgOC4zOTMgOCAxMC4xMTEgOEgxNy44ODlaIiBmaWxsPSJibGFjayIvPgo8cGF0aCBkPSJNMTYuMzk4NiAxMy4wNzEzQzE2LjUyMzUgMTMuMDcxMSAxNi42NDQgMTMuMTE3NiAxNi43MzY0IDEzLjIwMThDMTYuODI4NyAxMy4yODYgMTYuODg2MiAxMy40MDE3IDE2Ljg5NzUgMTMuNTI2MUMxNi45MDg3IDEzLjY1MDUgMTYuODczIDEzLjc3NDcgMTYuNzk3NCAxMy44NzQxQzE2LjcyMTcgMTMuOTczNSAxNi42MTE1IDE0LjA0MSAxNi40ODg2IDE0LjA2MzNMMTYuMzk4NiAxNC4wNzEzSDExLjU5ODZDMTEuNDczNiAxNC4wNzE1IDExLjM1MzEgMTQuMDI1IDExLjI2MDggMTMuOTQwOEMxMS4xNjg1IDEzLjg1NjYgMTEuMTExIDEzLjc0MDkgMTEuMDk5NyAxMy42MTY1QzExLjA4ODQgMTMuNDkyIDExLjEyNDEgMTMuMzY3OSAxMS4xOTk4IDEzLjI2ODVDMTEuMjc1NSAxMy4xNjkgMTEuMzg1NiAxMy4xMDE2IDExLjUwODYgMTMuMDc5M0wxMS41OTg2IDEzLjA3MTNIMTYuMzk4NloiIGZpbGw9IndoaXRlIi8+CjxwYXRoIGQ9Ik0xNCAxMC43NUMxNC4xMTcgMTAuNzUgMTQuMjMwNCAxMC43OTEgMTQuMzIwMyAxMC44NjU5QzE0LjQxMDIgMTAuOTQwOCAxNC40NzA5IDExLjA0NDkgMTQuNDkyIDExLjE2TDE0LjUgMTEuMjVWMTUuODkzQzE0LjUwMDIgMTYuMDE3OSAxNC40NTM3IDE2LjEzODUgMTQuMzY5NSAxNi4yMzA4QzE0LjI4NTMgMTYuMzIzMSAxNC4xNjk2IDE2LjM4MDYgMTQuMDQ1MiAxNi4zOTE5QzEzLjkyMDcgMTYuNDAzMiAxMy43OTY2IDE2LjM2NzUgMTMuNjk3MiAxNi4yOTE4QzEzLjU5NzcgMTYuMjE2MSAxMy41MzAzIDE2LjEwNTkgMTMuNTA4IDE1Ljk4M0wxMy41IDE1Ljg5M1YxMS4yNUMxMy41IDExLjExNzQgMTMuNTUyNyAxMC45OTAyIDEzLjY0NjQgMTAuODk2NEMxMy43NDAyIDEwLjgwMjcgMTMuODY3NCAxMC43NSAxNCAxMC43NVoiIGZpbGw9IndoaXRlIi8+Cjwvc3ZnPgo=") !important;
+}
+.entryPlaygroundBackPackButtonWorkspace,
+.entryPlaygroundBackPackView
+  > .widget
+  > div
+  > div:nth-of-type(1)
+  > div:nth-of-type(1) {
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTIyLjI1IDEyLjc1SDkuNzVDOC42NDU0MyAxMi43NSA3Ljc1IDEzLjY0NTQgNy43NSAxNC43NVYyMS4yNUM3Ljc1IDIyLjM1NDYgOC42NDU0MyAyMy4yNSA5Ljc1IDIzLjI1SDIyLjI1QzIzLjM1NDYgMjMuMjUgMjQuMjUgMjIuMzU0NiAyNC4yNSAyMS4yNVYxNC43NUMyNC4yNSAxMy42NDU0IDIzLjM1NDYgMTIuNzUgMjIuMjUgMTIuNzVaIiBmaWxsPSJibGFjayIgc3Ryb2tlPSJibGFjayIgc3Ryb2tlLXdpZHRoPSIxLjUiLz4KPHBhdGggZD0iTTIwIDE1VjE3SDEyVjE1IiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjEuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxwYXRoIGQ9Ik0yMi4yNSA5SDkuNzVDOS4zMzU3OSA5IDkgOS4zMzU3OSA5IDkuNzVDOSAxMC4xNjQyIDkuMzM1NzkgMTAuNSA5Ljc1IDEwLjVIMjIuMjVDMjIuNjY0MiAxMC41IDIzIDEwLjE2NDIgMjMgOS43NUMyMyA5LjMzNTc5IDIyLjY2NDIgOSAyMi4yNSA5WiIgZmlsbD0iYmxhY2siLz4KPHBhdGggZD0iTTIwLjI1IDZIMTEuNzVDMTEuMzM1OCA2IDExIDYuMzM1NzkgMTEgNi43NUMxMSA3LjE2NDIxIDExLjMzNTggNy41IDExLjc1IDcuNUgyMC4yNUMyMC42NjQyIDcuNSAyMSA3LjE2NDIxIDIxIDYuNzVDMjEgNi4zMzU3OSAyMC42NjQyIDYgMjAuMjUgNloiIGZpbGw9ImJsYWNrIi8+Cjwvc3ZnPgo=") !important;
+}
+.widget > div {
+  background-color: #fff;
+  border: 0;
+}
+.entryBoard {
+  background: #fff;
+}
+.blockMenuContainer,
+.entryCategoryListWorkspace,
+.entryCategoryElementWorkspace {
+  background-color: #fff !important;
+  border: 0 !important;
+}
+.entrySelectedCategory {
+  background-color: #000 !important;
+}
+.basicButtonView > g > path {
+  stroke: #ffffff !important;
+}
+.basicButtonView > g > text {
+  filter: grayscale(1);
+}
+.entryTabSelected {
+  background-color: #000 !important;
+}
+.entryRunButtonWorkspace_w {
+  background-color: #000 !important;
+  border: 0 !important;
+}
+.entryStopButtonWorkspace_w,
+.entryAddButtonWorkspace_w,
+.entryPauseButtonWorkspace_w,
+.entryRestartButtonWorkspace_w {
+  color: #000 !important;
+  border: 0 !important;
+}
+.entryCategoryListWorkspace:before,
+.propertyContent,
+.entryEngine_w {
+  border: 0 !important;
+}
+.entryPlaygroundCurtainWorkspace {
+  display: none;
+}
+#water_pyer::after {
+  content: "개같은 디자인은 묻답러가 만들었다!!";
+}
+.entrySceneRemoveButtonWorkspace {
+  filter: brightness(0);
+}
+.entryAddButtonWorkspace_w:before {
+  filter: brightness(0);
+}
+.entrySceneInputCover,
+.entryObjectNameWorkspace {
+  background-color: #fff !important;
+  color: #000;
+}
+.selectedObject {
+  background-color: #fff !important;
+  border: 1px solid black;
+}
+.entryContainerListElementWorkspace {
+  background-color: #fff !important;
+}
+#EntryModal {
+  background-color: #00000000;
+  backdrop-filter: blur(10px);
+}
+.workspace::after,
+.workspace::before {
+  background: none !important;
+  animation: none !important;
+}
+.entry-modal-cancelButton {
+  color: #000 !important;
+  border: 0 !important;
+}
+.entry-modal-button-group > .entry-modal-button:nth-of-type(2) {
+  background-color: #000 !important;
+  border: 0 !important;
+}
+.propertyTabElement,
+.objectInfo_visible,
+.objectInfo_unlock,
+.entryObjectRotateModeWorkspace {
+  filter: grayscale(1);
+}
+#entryBlockHelperWorkspaceWrapper {
+  background-color: #fff;
+}
+.entryTabListItemWorkspace {
+  color: #fff;
+  background-color: #000;
+}
+svg > g:nth-of-type(4) > image:nth-of-type(1) {
+  filter: brightness(0);
+}
