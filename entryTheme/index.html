@@ -23,7 +23,7 @@
 
         div {
             background-color: #ddd;
-            margin: 25px 25px 25px 25px;
+            margin: 25px;
             padding: 20px;
             width: 300px;
             height: 300px;
@@ -101,31 +101,58 @@
         #email {
             color: #eee !important;
         }
+
+        #title {
+            text-align: center;
+            color: white;
+            margin: 10px;
+            width: 100%;
+        }
+
+        #title::after {
+            content: "(공식 사이트가 아닙니다)";
+            font-size: 20px;
+            color: #ffaaaa;
+            margin-left: 10px;
+        }
+
+        #official {
+            width: 172px;
+            color: #fff;
+            align-self: flex-start;
+            margin-top: 25px;
+        }
+
+        .official {
+            background-color: #aaddaa;
+            box-shadow: 0 10px 20px #aaddaa;
+        }
     </style>
 </head>
 
 <body>
+    <h1 id="title">Pyer 디자인 파일 목록</h1>
+    <hr>
+    <h1 id="official">공식 디자인</h1>
     <!------------------------------------------->
-    <div><img src="./thumbnail/다크 테마'wy24-tica.png" onclick="imgZoom(`다크 테마'wy24-tica`)">
+    <div class="official"><img src="./thumbnail/다크 테마'wy24-tica.png" onclick="imgZoom(`다크 테마'wy24-tica`)">
         <h1 id="default">다크 테마</h1>
         <span>by.</span> <a
             href="https://playentry.org/profile/54aa98e3c447613176776f39?sort=created&term=all&isOpen=all">wy24</a><span>,</span>
         <a href="https://playentry.org/profile/60bc5559659bf40bd15d022c?sort=created&term=all&isOpen=all">tica</a>
-        <p onclick="downloadFile(`다크 테마'wy24-tica`)">클릭해서 다운로드</p>
     </div>
     <!------------------------------------------->
-    <div><img src="./thumbnail/민트 테마'제덮.png" onclick="imgZoom(`민트 테마'제덮`)">
+    <div class="official"><img src="./thumbnail/민트 테마'제덮.png" onclick="imgZoom(`민트 테마'제덮`)">
         <h1 id="default">민트 테마</h1>
         <span>by. </span><a
             href="https://playentry.org/profile/54aa98e3c447613176776f39?sort=created&term=all&isOpen=all">제덮</a>
-        <p onclick="downloadFile(`민트 테마'제덮`)">클릭해서 다운로드</p>
     </div>
     <!------------------------------------------->
-    <div><img src="./thumbnail/세피아 테마'wy24.png" onclick="imgZoom(`세피아 테마'wy24`)">
+    <div class="official" style="margin-right: 200px;"><img src="./thumbnail/세피아 테마'wy24.png"
+            onclick="imgZoom(`세피아 테마'wy24`)">
         <h1 id="default">세피아 테마</h1>
         <span>by. </span><a
             href="https://playentry.org/profile/54aa98e3c447613176776f39?sort=created&term=all&isOpen=all">wy24</a>
-        <p onclick="downloadFile(`세피아 테마'wy24`)">클릭해서 다운로드</p>
     </div>
 
     <hr>
